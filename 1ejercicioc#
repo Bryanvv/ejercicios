@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace 1ejercicio
+{
+
+
+    class Program
+    
+
+        static void Main(string[] args)
+        {
+            double vel = 0;
+            double tie = 0;
+            double calculo;
+            Console.WriteLine("Ingresar un numero para calcular velocidad");
+                tie = Convert.ToInt32(Console.ReadLine());
+                  vel =  100 / t ;
+                    resultado = v;
+            Console.WriteLine("El resultado es:" + resultado);
+
+            Console.ReadKey();
+
+        }
+    }
+}

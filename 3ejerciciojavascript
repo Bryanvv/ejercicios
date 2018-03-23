@@ -1,0 +1,19 @@
+public class ejerciciojavascrip{
+ public static void main(String args[]){
+
+
+
+  double vol= 300;
+    double res = 120;
+      double resultado;
+        double cor;
+
+
+        cor = 300/120;
+
+
+        resultado = cor;
+  System.out.println("La corriente es:"+ resultado);
+  
+}
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejercicio 2 en php</title>
+</head>
+<body>
+
+            <fieldset>
+
+
+	<h1>Peso de la Maquina</h1>
+	<form method="POST">
+
+		    <label for="" 40 >Ingresar masa:  ???</label> <br><br>
+		        <label for="n" 50 >Ingresar fuerza</label>
+		            <input type="number" name="n">
+		                <br>
+		                    <label for="n2">Ingresar gravedad:   9.8m/s2</label>
+
+		                      <input type="submit" name="submit" value="Resultado">
+	</form>
+      </fieldset>
+
+</body>
+</html>
+<?php
+echo "<h1>Resultado del calculo</h1>";
+echo "La formula es: M= F / G ";
+$fuerza=$_POST['n'];
+
+$gravedad=9.8;
+
+      $masa= $fuerza / $gravedad;
+echo "El calculado de masa es: " .$fuerza. " / "  .$gravedad.  " = ".$masa;
+?>
